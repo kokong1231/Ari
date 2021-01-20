@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A653EFE025B856DF003D0808 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653EFDF25B856DF003D0808 /* TimerController.swift */; };
+		A653EFE325B8777C003D0808 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653EFE225B8777C003D0808 /* Type1.swift */; };
 		A6E6C28925B823CC00126798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6C28825B823CC00126798 /* AppDelegate.swift */; };
 		A6E6C28B25B823CC00126798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6C28A25B823CC00126798 /* SceneDelegate.swift */; };
 		A6E6C28D25B823CC00126798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6C28C25B823CC00126798 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A653EFDF25B856DF003D0808 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		A653EFE225B8777C003D0808 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
 		A6E6C28525B823CB00126798 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E6C28825B823CC00126798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E6C28A25B823CC00126798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				A6E6C29325B823CC00126798 /* LaunchScreen.storyboard */,
 				A6E6C29625B823CC00126798 /* Info.plist */,
 				A6E6C29E25B824F900126798 /* DetailController.swift */,
+				A653EFDF25B856DF003D0808 /* TimerController.swift */,
+				A653EFE225B8777C003D0808 /* Type1.swift */,
 			);
 			path = Ari;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			files = (
 				A6E6C29F25B824F900126798 /* DetailController.swift in Sources */,
 				A6E6C28D25B823CC00126798 /* ViewController.swift in Sources */,
+				A653EFE025B856DF003D0808 /* TimerController.swift in Sources */,
 				A6E6C28925B823CC00126798 /* AppDelegate.swift in Sources */,
 				A6E6C28B25B823CC00126798 /* SceneDelegate.swift in Sources */,
+				A653EFE325B8777C003D0808 /* Type1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

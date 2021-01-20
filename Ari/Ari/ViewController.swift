@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func Click_movebtn(_ sender: Any) {
+    
+    @IBAction func Click_btn(_ sender: UIButton) {
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailController") {
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }
+    
+    @IBAction func Time_btn(_ sender: UIButton) {
+        if let time_controller = self.storyboard?.instantiateViewController(withIdentifier: "TimerController") {
+            self.navigationController?.pushViewController(time_controller, animated: true)
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
