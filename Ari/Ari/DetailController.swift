@@ -66,7 +66,23 @@ class DetailController : UIViewController, UITableViewDataSource, UITableViewDel
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(identifier: "NewsDetailController") as! NewsDetailController
         
+        if let news = newsData {
+            let row = news[indexPath.row]
+            print("row \(row)")
+            if let r = row as? Dictionary<String, Any> {
+                if let imageUrl = r["urlToImage"] as? String {
+                    controller.imageUrl = imageUrl
+                }
+                if let desc = r["description"] as? String {
+                    controller.desc = desc
+                }
+            }
+        }
+        
+        showDetailViewController(controller, sender: nil)
     }
     
     override func viewDidLoad() {
